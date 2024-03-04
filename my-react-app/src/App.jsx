@@ -29,8 +29,8 @@ function App() {
       {/* <Food/> */}
       <Card/>
       <br></br>
-      {/* <Button/>
-      <UserGreeting isLoggedIn={true} username="Samson"/>
+      <Button/>
+      {/* <UserGreeting isLoggedIn={true} username="Samson"/>
       <Student name="Samson" age={27} profession="Software Engineer" hasMasters={true}/>
       <Student name="Justus" age={28} profession="Chef" hasMasters={false}/>
       <Student name="Brian" age={23} profession="Teacher" hasMasters={true}/>
