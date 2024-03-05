@@ -6,6 +6,7 @@ import Button from './Button/Button.jsx';
 import Student from './Student.jsx';
 import UserGreeting from './UserGreeting.jsx';
 import List from './List.jsx';
+import Counter from './Counter.jsx';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       <Card/>
       <br></br>
       <Button/>
+      <Counter/>
       {/* <UserGreeting isLoggedIn={true} username="Samson"/>
       <Student name="Samson" age={27} profession="Software Engineer" hasMasters={true}/>
       <Student name="Justus" age={28} profession="Chef" hasMasters={false}/>
