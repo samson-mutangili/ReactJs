@@ -8,6 +8,7 @@ import UserGreeting from './UserGreeting.jsx';
 import List from './List.jsx';
 import Counter from './Counter.jsx';
 import Order from './Order.jsx';
+import ColorPicker from './ColorPicker.jsx';
 
 function App() {
 
@@ -37,9 +38,12 @@ function App() {
       <Student name="Samson" age={27} profession="Software Engineer" hasMasters={true}/>
       <Student name="Justus" age={28} profession="Chef" hasMasters={false}/>
       <Student name="Brian" age={23} profession="Teacher" hasMasters={true}/>
-      <Student/> */}
+      <Student
+      /> */}
 
       <Order/>
+
+      <ColorPicker/>
 
       {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
       {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null}

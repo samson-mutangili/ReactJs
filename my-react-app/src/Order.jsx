@@ -6,7 +6,7 @@ function Order(){
     const [quantity, setQuantity] = useState(0);
     const [comment, setComment] = useState("");
     const [payment, setPayment] = useState("");
-    const [shipping, setShipping] = useState("");
+    const [shipping, setShipping] = useState("Delivery");
 
     const handleNameChange = (event) =>{
         setName(event.target.value);
