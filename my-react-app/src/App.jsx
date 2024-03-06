@@ -10,6 +10,7 @@ import Counter from './Counter.jsx';
 import Order from './Order.jsx';
 import ColorPicker from './ColorPicker.jsx';
 import SpreadOperator from './SpreadOperator.jsx';
+import UpdateArrays from './UpdateArrays.jsx';
 
 function App() {
 
@@ -41,6 +42,8 @@ function App() {
       <Student name="Brian" age={23} profession="Teacher" hasMasters={true}/>
       <Student
       /> */}
+
+      <UpdateArrays/>
 
       <SpreadOperator/>
 
