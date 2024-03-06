@@ -11,6 +11,7 @@ import Order from './Order.jsx';
 import ColorPicker from './ColorPicker.jsx';
 import SpreadOperator from './SpreadOperator.jsx';
 import UpdateArrays from './UpdateArrays.jsx';
+import ToDoList from './ToDoList.jsx';
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
       {/* <Food/> */}
       <Card/>
       <br></br>
+      <ToDoList/>
       <Button/>
       <Counter/>
       {/* <UserGreeting isLoggedIn={true} username="Samson"/>
