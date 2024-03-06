@@ -9,6 +9,7 @@ import List from './List.jsx';
 import Counter from './Counter.jsx';
 import Order from './Order.jsx';
 import ColorPicker from './ColorPicker.jsx';
+import SpreadOperator from './SpreadOperator.jsx';
 
 function App() {
 
@@ -41,12 +42,14 @@ function App() {
       <Student
       /> */}
 
-      <Order/>
+      <SpreadOperator/>
 
-      <ColorPicker/>
+      {/* <Order/>
 
+      <ColorPicker/> */}
+{/* 
       {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
-      {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null}
+      {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null} */}
 
       <Footer/>
     </>
