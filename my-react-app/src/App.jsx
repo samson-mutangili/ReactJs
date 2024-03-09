@@ -13,6 +13,7 @@ import SpreadOperator from './SpreadOperator.jsx';
 import UpdateArrays from './UpdateArrays.jsx';
 import ToDoList from './ToDoList.jsx';
 import WindowDimension from './WindowDimension.jsx';
+import DigitalClock from './DigitalClock.jsx';
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
       <Card/>
       <br></br>
       <WindowDimension/>
+      <DigitalClock/>
       <ToDoList/>
       <Button/>
       <Counter/>

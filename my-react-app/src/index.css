@@ -197,3 +197,24 @@ input[type="color"]{
   display: flex;
   align-items: center;
 }
+
+.clock-container{
+  background-image: url("assets/landscape.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200px;
+}
+
+.clock-container h3{
+  color: white;
+}
+
+.clock{
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-shadow: 3px 3px 5px black;
+}
