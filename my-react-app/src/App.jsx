@@ -12,6 +12,7 @@ import ColorPicker from './ColorPicker.jsx';
 import SpreadOperator from './SpreadOperator.jsx';
 import UpdateArrays from './UpdateArrays.jsx';
 import ToDoList from './ToDoList.jsx';
+import WindowDimension from './WindowDimension.jsx';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
       {/* <Food/> */}
       <Card/>
       <br></br>
+      <WindowDimension/>
       <ToDoList/>
       <Button/>
       <Counter/>

@@ -6,7 +6,7 @@ function Button(){
     const handleClick = (name) => {
         if(count < 3){
             count++;
-            console.log(`${name} you clicked me ${count} time/s`);
+            alert(`${name} you clicked me ${count} time/s`);
         }
         else{
             console.log(`${name} stop clicking me!`);
