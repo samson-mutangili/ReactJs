@@ -14,6 +14,7 @@ import UpdateArrays from './UpdateArrays.jsx';
 import ToDoList from './ToDoList.jsx';
 import WindowDimension from './WindowDimension.jsx';
 import DigitalClock from './DigitalClock.jsx';
+import ComponentA from './ComponentA.jsx';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
     <>
       <Header/>
       {/* <Food/> */}
+      <ComponentA/>
       <Card/>
       <br></br>
       <WindowDimension/>
